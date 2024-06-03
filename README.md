@@ -4,15 +4,15 @@
 # QuestCraft
 ![QC](/QCSimple3.jpg)
 
-QuestCraft, utilizing Vivecraft and Pojlib, is a standalone port of Minecraft: Java Edition to Oculus Quest Headsets. With a team of four main developers and 8 third-party developers, over the past year, we have not only gotten the bestselling game, Minecraft: Java Edition running on Android, but we have also worked with third-party developers to bring it into Virtual Reality on the Oculus Quest line of standalone HMDs.
+QuestCraft, utilizing Vivecraft and Pojlib, is a standalone port of Minecraft: Java Edition to Oculus/Meta Quest Headsets. With a team of four main developers and 8 third-party developers, over the last few years, we have not only gotten the bestselling game, Minecraft: Java Edition running on Android, but we have also worked with third-party developers to bring it into Virtual Reality on the Oculus Quest line of standalone HMDs.
 
 # Features
 - ### **Roomscale Minecraft VR!** 
 - ### **Quest 2 and 3 Native!\***
 - ### **Full Multiplayer!**                                                                    
 - ### **Immersive Controls through Vivecraft!**                                                                                                   
-- ### **Supports 1.18.2 (most stable version), 1.19.2 and 4, and 1.20.1 - 1.20.4!****                                                                                                                                 
-- ### **Includes a launcher that allows you to start QuestCraft, switch between versions, automatically update installed mods and other MC components in seconds, and use Mod Manager, a tool to download and install supported mods, modpacks and resourcepacks right from your Quest!**                                                                                                                                                                                
+- ### **Supports 1.18.2 (most stable version), 1.19.2 and .4, and 1.20.1 - 1.20.4!****                                                                                                                                 
+- ### **Includes a launcher that allows you to start QuestCraft, switch between Minecraft versions, automatically update installed mods and other MC components in seconds, and use Mod Manager, a tool to download and install supported mods, modpacks, and resourcepacks right from your Quest!**                                                                                                                                                                                
 
 # Installation Instructions
 
@@ -20,9 +20,9 @@ QuestCraft, utilizing Vivecraft and Pojlib, is a standalone port of Minecraft: J
 
 First off, you most likely want to install QuestCraft. Please go to the release page for **[QuestCraft](https://github.com/QuestCraftPlusPlus/QuestCraft/releases/latest)** and download the APK to your computer or Android device.
 
-Secondly, you must install the QuestCraft APK to your VR Headset using **[SideQuest](https://sidequestvr.com/setup-howto)** and follow the necessary steps to connect your Quest. Drag and drop the APK, and wait for it to install.
+Secondly, you must install the QuestCraft APK to your VR Headset using **[SideQuest](https://sidequestvr.com/setup-howto)** and follow the necessary steps to connect your Quest. Drag and drop the APK onto the SideQuest window, and wait for it to install.
 
-Next, open your headset's QuestCraft launcher (through Unknown Sources). Be sure to grant all requested permissions. Once you're done, you'll follow the on-screen prompts to enter your Minecraft login details, then press play and wait for all of the files to download (aproxx. 10 minutes).  (You must do this for each specific version to play that version!)
+Next, open your headset's QuestCraft launcher (through Unknown Sources). Be sure to grant all requested permissions. Once you're done, you'll need to follow the on-screen prompts to enter your Minecraft login details, then press play and wait for all of the files to download (aproxx. 10 minutes).  (You must do this for each specific version to play that version!)
 
 **NOTE: You may encounter crashes when downloading your selected MC version, ESPECIALLY on v53 and later. This is because Meta can't fix memory leaks, for some reason. Don't fret; launch the app again, press play again, and the download will continue where it left of before the crash. If it continues, please keep trying. If, after 4 attempts, you still are not loaded in, please visit the support channel of the [QuestCraft Discord](https://discord.gg/questcraft)**
 
@@ -31,17 +31,18 @@ And boom! You have successfully installed QuestCraft on your VR headset! To play
 ## Supported Renderer
 
 **Regal**
-We use a renderer named Regal, an almost perfect renderer for Minecraft. You may find issues, you can see some renderer specific issues on our Discord, and in the known-issues-5•0
+QuestCraft uses a renderer named Regal; it's an almost perfect renderer for Minecraft. You may encounter issues; you can find some renderer specific issues on the Discord in the known-issues-5•0 channel.
 
 ## Included Mods 
 
 **Did you experience a mod-related crash when loading MC? You can do 1 of these solutions to find the cause and fix it!**
 
 **Easy Way**                                                                                                                                                                                                                                                                                  
-Join the QuestCraft [Discord Server](https://discord.gg/questcraft) and go to #bot-commands. Grab your log by going to Need Help? button, going to the link it supplies, downloading the log, then uploading it to Crafty by doing /logs.
+Join the QuestCraft [Discord Server](https://discord.gg/questcraft) and go to #bot-commands. then Get your logs by clicking the *Need Help?* button in the launcher, going to the link it supplies, downloading the log, then uploading it to the Crafty bot by doing 
+/logs in either the #questcraft-support, #questcraft-help, or #bot-commands channels.
 
 **Manual Way**                                                                                                                                                                                                                                                                                      
-To find out what caused the crash, you can open the latestlog.txt file. You can find it in Android/data/com.qcxr.qcxr with a file viewer. You can go to the bottom of the file and look for a Fabric error message. This message will tell you which mods caused the crash. Once you know what caused the problem, you can fix it.
+To find out what caused the crash, you can open the latestlog.txt file. You can find it in Android/data/com.qcxr.qcxr with a file manager. You can go to the bottom of the file and look for a Fabric error message. This message will tell you which mods caused the crash. Once you know what caused the problem, you can fix it.
 
 If you need help with these solutions, please go to the support channel of the QuestCraft [Discord](https://discord.gg/questcraft). 
 
